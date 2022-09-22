@@ -1,0 +1,22 @@
+body{
+
+    background-color: #FFFDD0;
+}
+.bio {
+    font-family: 'Space Mono', monospace;
+    float: left;
+    min-width: 500px;
+    max-width: 2000px;
+    width:78%;
+}
+
+.quickfacts {
+    border: 2px solid #006400;
+    float:right
+}
+
+.denzel {
+    margin: auto;
+    width: 200px;
+    position: center;
+}
