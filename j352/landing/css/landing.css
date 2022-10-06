@@ -7,6 +7,9 @@
 
 /*Part 1*/
 
+.mainimg{
+    float: left;
+}
 .navbar{
     color: #F8DCD1;
     float: right;
