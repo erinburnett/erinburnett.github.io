@@ -1,142 +1,290 @@
-/*Full Site*/
+/*Main Site Design*/
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #faf9f7;
+
+}
+h1, h2 {
+
+    font-family: 'Alice', serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.25;
+}
+
+header{
+
+    margin: 3em 0;
+}
+
+.logo h2{
+
+    font-size: .75em;
+    font-weight: 600;
+    color: #DA8260;
+    letter-spacing: .12em;
+}
+
+/*Home*/
+    
+    .home main{
+
+        margin: 1em 0 0 0;
+    }
+    /*Branding*/
+
+    .logo, .social, .welcome{
+        padding: 0;
+        margin: 0;
+
+    }
+    /*Reel*/
+
+    .title{
+        text-align: center;
+        
+    }
+
+    /*Welcome Message*/
+
+    .welcome, p{
+
+        text-align: center;
+        font-family: 'Alice', serif;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+        color: #DCA780;
+    }
+
+    .welcome{
+        font-weight: 600;
+    }
+
     /*Navigation Bar*/
 
-    .nav-pills .nav-link{
-
-        background-color: #DA8260;
+    nav{
+        margin: 1em 0 0 0;
     }
 
-   .nav-pills {
-        --bs-nav-pills-border-radius: 0.375rem;
-        --bs-nav-pills-link-active-color: #DA8260;
-        --bs-nav-pills-link-active-bg: #DA8260;
+    .nav-link,a{
+        color: #e9e6e0;
+
     }
     
-    .Nav{
+    .nav-link,.dropdown-item{
 
-        
-        margin-left: 100rem;
+        font-size: .75em;
+    }
+    .nav-item{
+
+        background-color: #DA8260;
+        margin: 0 1em 0 0;
+    }
+
+    .nav-link:focus, .nav-link:hover{
+        color: #fff;
+    }
+    .nav-last{
+        margin: 0;
+    }
+   
+    video{
+
+        width: 100%;
+    }
+
+    /*Social Media Links*/
+    
+    
+    .social, a{
+
+        padding: 0 2em 0 0;
+        font-size: 1em;
+        text-decoration: none;
+        color: #DA8260;
+    }
+
+    .social{
+        margin: 1em 0;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: #DA8260;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    /*Latest Work Bin*/
+    .card-title{
+
+        text-align: center;
+    }
+
+/*Subpages*/
+
+    /*Logo*/
+
+    .subpage, col-md-4{
+
+        margin-left: 1em;
+    }
+    /*Navigation Bar*/
+
+    .nav justify-content-end, .subpage{
+
+        margin-right: 1em;
+    }
+
+    /*Footer*/
+
+    .social, .footer{
+
+        text-align: center;
+        margin-top: 4em;
+    }
+
+/*My Story*/
+
+    .headshot{
+
+        border-radius: 50%;
+    }
+
+    .pic, col-md-4{
+
         float: right;
     }
 
-    .nav{
-
-        --bs-nav-link-color:var(--bs-link-color: #DA8260;)
-        --bs-link-color: #DA8260;
+    col-md-6, p{
+        text-align: center;
     }
 
-    :root {
+    /*ONLY "My Story" Title*/
 
-        --bs-font-sans-serif: 'Alice', serif;
+    col-md-6, .bio{
+
+        text-align: center;
     }
 
+    col-md-6, .sub-title{
 
-    h1 {
-
-        font-family: 'Alice', serif;
+        text-align: center;
     }
 
-    /*Site Title Design*/
+   
+    col-md-4 .sub-title{
 
-    .title{
-
-        font-family: 'Cardo', serif;
-        color:#E9E6E0;
-
+        text-align: center;
     }
-    
-/*Home*/
+/*Experiences*/
 
-    /*Top-Main*/
+    .experience-title, .experience-only{
 
-        /*Logo/Name/Branding/Web Title-->*/
+        text-align: left;
+    }
 
-        /*Rotating Collage Banner*/
+    .experience-only{
 
-        .collagebanner{
+        margin-top: 1em;
+    }
 
-            max-height: 500;
-            float: left;
-        }
+    .experiences{
 
-    
-    /*Mid-Main*/
+        margin: 2em;
+    }
 
-        /*Social Media Links*/
+    col-md, .bio{
 
-        .socialmedia{
-            float: left;
+        margin-top: 1em;
+    }
 
-        }
+    .experiencepics{
 
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 30px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 50%;
-            color: #DA8260;
-        }
-
-        .fa:hover {
-            opacity: 0.7;
-        }
-
-    /*Bottom-Main*/
-
-        /*Latest Work Main-Bin*/
-
-        .btn btn-primary{
-
-            -bs-btn-color: #fff;
-            --bs-btn-bg: #DA8260;
-            --bs-btn-border-color: #DA8260;
-            --bs-btn-hover-color: #fff;
-            --bs-btn-hover-bg: #DA8260;
-            --bs-btn-hover-border-color: #DA8260;
-            --bs-btn-color:var(--bs-btn-color)
-            --bs-btn-focus-shadow-rgb: 49,132,253;
-            --bs-btn-active-color: #fff;
-            --bs-btn-active-bg: --bs-btn-focus-shadow-rgb: 49,132,253;
-            --bs-btn-active-color: #fff;
-            --bs-btn-active-bg: #DA8260;
-            --bs-btn-active-border-color: #DA8260;
-            --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
-            --bs-btn-disabled-color: #fff;
-            --bs-btn-disabled-bg: #DA8260;
-            --bs-btn-disabled-border-color: #DA8260;
-
-        }
-
-        .work{
-
-            float: center;
-            text-align: center;
-        }
-
-/*About*/
-
-    /*My Story*/
-
-    /*Experience*/
+        
+    }
 
 /*Resume*/
 
-/*Work*/
+    .resume-title{
 
-    /*Video Reel*/
+        text-align: center;
+        margin-bottom: 3em;
+    }
 
-    /*Clips*/
+/*Video Reel*/
+
+.reel-title{
+
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/*Clips*/
+
+.clip-title{
+
+    text-align: center;
+}
+
+.clip-button{
+
+    background-color: #DCA780;
+    outline-color: #DCA780;
+    color: #faf9f7;
+    border:#DCA780;
+    border-radius: 25px;
+    margin: 1em;
+}
+
+.web{
+
+    margin-bottom: 33.5em;
+}
 
 /*Contact*/
 
+.contact-title{
 
+    text-align: center;
+    margin-bottom: 1em;
+    color: #DA8260;
+}
 
+#c-info{
 
+    text-align: center;
+}
 
-/*
-Site Colors and Fonts:
+.socials{
+
+    text-align: center;
+}
+
+.contact-card{
+
+    margin: 0 2em 0 2em;
+    
+}
+
+.contact-picture{
+
+    align-content: center;
+    margin: 3em 0 0 8em;
+}
+
+    
+/*Site Colors and Fonts:
 
 Colors-
 
