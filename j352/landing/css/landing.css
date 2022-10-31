@@ -1,0 +1,61 @@
+/*Header*/
+
+#Taku{
+
+   font-family: 'Orbitron', sans-serif; 
+}
+
+/*Part 1*/
+
+.mainimg{
+    float: left;
+}
+.navbar{
+    color: #F8DCD1;
+    float: right;
+    display: inline;
+}
+
+.navlink{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 100;
+    color: #664C4B;
+    text-align: left;
+}
+
+/*Part 2*/
+
+.text1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    color: #664C4B;
+    float: left;
+}
+
+.container text-center{
+    float: right;
+}
+
+/*Part 3*/
+
+.text2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    color: #664C4B;
+    float: left;
+}
+
+.text3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    color: #664C4B;
+
+    float: right;
+}
+
+/*general style*/
+
+body{
+    color: #FAF7F3;
+}
+
