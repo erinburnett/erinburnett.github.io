@@ -1,0 +1,142 @@
+/*
+font-family: 'Alice', serif;
+font-family: 'Cardo', serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Literata', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+*/
+
+/*Main Document*/
+
+body{
+
+    background-color: #F4F5F8;
+    color: #152128;
+    font-family: 'Literata', serif;
+    font-size: 15px;
+}
+
+main{
+
+    margin: 0 5em 0 5em;
+}
+
+footer{
+    margin: 2em 5em 4em 5em;
+}
+
+/*Graphics, Charts and Images*/
+
+.graphic-a{
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em 0 1em 0;
+    background-color: #EAEAEA;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.img-fluid{
+
+    padding: 2em 0 2em 0;
+}
+
+.graphic-b{
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em 0 1em 0;
+    border-bottom-color: #9DB4AB;
+    border-bottom-style: dashed;
+    border-bottom: 1em;
+}
+
+/*Nav*/
+
+.title{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2ex;
+    font-weight: 600;
+}
+
+/*Header*/
+
+header{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 1.5vmax;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+}
+
+.top{
+
+    font-size: 1vmax;
+    font-weight: 600;
+}
+
+.right-contain{
+
+    margin: 3em;
+    
+}
+
+.name{
+
+    font-size: small;
+    text-align: center;
+    font-size: 0.9vmax;
+    font-weight: 300;
+}
+
+.top{
+    font-weight: 300;
+}
+
+/*Article Title Style*/
+
+.timeless{
+
+    letter-spacing: 0.2em;
+    font-size: 1.5vmax;
+    font-weight: 600;
+
+}
+
+.spotify{
+
+    color: #1DB954;
+}
+
+/*Footer*/
+
+.footer{
+
+    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1ex;
+    font-weight: 200;
+
+}
+
+.link{
+
+    color: black;
+}
+
