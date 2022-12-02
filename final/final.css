@@ -1,0 +1,58 @@
+/*Colors:
+
+Freesia- #EFCO81
+Scarlet- #BCOA0F
+Gold- #AF9F3O
+White- #EFEEE9
+*/
+
+/*Fonts:
+font-family: 'Libre Baskerville', serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+body{
+    background-color: #efc081;
+    text-align: center;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: #bc0a0f;
+    margin-top: 1em;
+}
+
+.article{
+
+    margin: 4em 2em 4em 2em;
+}
+
+.graphic{
+
+    margin: 0 2em 0 2em;
+}
+
+.images{
+    margin: 3em 2em 0 2em;
+}
+
+.plant{
+
+    color: #af9f30;
+    font-style: normal;
+}
+
+.study{
+
+    color: #af9f30;
+    font-style: italic;
+    font-weight: 700;
+
+}
