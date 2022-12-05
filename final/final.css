@@ -70,3 +70,21 @@ h1{
     font-size: small;
     font-weight: 100;
 }
+
+.giphy-embed{
+
+    text-align: center;
+}
+
+.giphy{
+
+    color: rgb(104, 100, 100);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #efc081;
+        text-align: center;
+        opacity: 30%;
+    }
+  }
